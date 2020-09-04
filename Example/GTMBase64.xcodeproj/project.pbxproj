@@ -60,12 +60,12 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7759E948544947AE2DFD45CB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7759E948544947AE2DFD45CB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		87F51CDABC4654EAE94F1522 /* GTMBase64.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GTMBase64.podspec; path = ../GTMBase64.podspec; sourceTree = "<group>"; };
+		87F51CDABC4654EAE94F1522 /* GTMBase64.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GTMBase64.podspec; path = ../GTMBase64.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		92A190F5CB8B96FDE2A3AEB8 /* Pods_GTMBase64_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GTMBase64_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB125768D9B20CC5E2782AC0 /* Pods-GTMBase64_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTMBase64_Tests.debug.xcconfig"; path = "Target Support Files/Pods-GTMBase64_Tests/Pods-GTMBase64_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C6032D3D15642137527ABB06 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C6032D3D15642137527ABB06 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F54E4256750D9003D15D9BF0 /* Pods-GTMBase64_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTMBase64_Tests.release.xcconfig"; path = "Target Support Files/Pods-GTMBase64_Tests/Pods-GTMBase64_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				AB125768D9B20CC5E2782AC0 /* Pods-GTMBase64_Tests.debug.xcconfig */,
 				F54E4256750D9003D15D9BF0 /* Pods-GTMBase64_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

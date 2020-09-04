@@ -1,0 +1,23 @@
+{
+  "name": "GTMBase64",
+  "version": "0.1.0",
+  "summary": "A short description of GTMBase64.借鉴开源项目  这里仅仅是做了下 pod支持",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/1241545546@qq.com/GTMBase64",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1241545546@qq.com": "hari@gitlab.com"
+  },
+  "source": {
+    "git": "https://github.com/1241545546@qq.com/GTMBase64.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": false,
+  "source_files": "GTMBase64/Classes/**/*"
+}

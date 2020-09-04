@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - GTMBase64 (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - GTMBase64 (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  GTMBase64:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  GTMBase64: e9c7955d5bbe57a8ed4bc641dde2aa233bcce1bd
+
+PODFILE CHECKSUM: 803a3358a6a1aa23836de38b25f247bdc79b1493
+
+COCOAPODS: 1.9.3

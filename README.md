@@ -9,6 +9,14 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+声明: 将开源项目包装成 pod 包管理
+
++ (NSString*)md5_base64: (NSString *) inPutText;
++ (NSString*)encodeBase64String:(NSString *)input;
++ (NSString*)decodeBase64String:(NSString *)input;
++ (NSString*)encodeBase64Data:(NSData *)data;
++ (NSString*)decodeBase64Data:(NSData *)data;
+
 ## Requirements
 
 ## Installation
@@ -22,7 +30,7 @@ pod 'GTMBase64'
 
 ## Author
 
-1241545546@qq.com, hari@gitlab.com
+1241545546@qq.com
 
 ## License
 
