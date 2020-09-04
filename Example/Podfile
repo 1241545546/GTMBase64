@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'GTMBase64_Example' do
+  pod 'GTMBase64', :path => '../'
+
+  target 'GTMBase64_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
